@@ -21,3 +21,7 @@ spring:
           uri: lb://marcas-relojes
           predicates:
             - Path=/marcas/**
+	- id: justificativos
+          uri: lb://justificativos
+          predicates:
+            - Path=/justificativos/**
