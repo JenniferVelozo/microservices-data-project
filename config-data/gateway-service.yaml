@@ -20,8 +20,8 @@ spring:
         - id: marcas-relojes
           uri: lb://marcas-relojes
           predicates:
-            - Path=/marcas/**
-	      - id: justificativos
+          - Path=/marcas/**
+        - id: justificativos
           uri: lb://justificativos
           predicates:
-            - Path=/justificativos/**
+          - Path=/justificativos/**
