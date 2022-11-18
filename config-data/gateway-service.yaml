@@ -28,4 +28,8 @@ spring:
         - id: horas-extras
           uri: lb://horas-extras
           predicates:
-          - Path=/horas_extra
+          - Path=/horas_extra/**
+        - id: planilla
+          uri: lb://planilla
+          predicates:
+        - Path=/planilla/**
